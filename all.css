@@ -46,15 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-:root{
-    --color-primary: red;
-    --font-size: 18px;
-}
-
-.box p{
-    color: var(--color-primary);
-}
-.box a{
-    color: blue;
-    font-size: var(--font-size);
+.form-group:has(
+    :checked
+){
+    background-color: yellow;
 }
