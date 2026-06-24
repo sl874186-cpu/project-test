@@ -196,7 +196,7 @@ table {
 .form-right{
 	margin-left: 30px;
 }
-.form-right input{
+.form-right textarea{
   resize: none;
   width: 350px;
   height: 194px;
