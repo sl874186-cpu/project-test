@@ -46,8 +46,189 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.form-group:has(
-    :checked
-){
-    background-color: yellow;
+*,*:before,*:after{box-sizing: border-box}
+.sns{
+	background-color:#F6F6F8;
+	padding: 4px;
+}
+.sns ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 4px;
+}
+.facebook a{
+	color: #4267B2;
+	text-decoration: none;
+	padding: 0px 12px;
+	border-right: 1px solid #CCCCCC;
+}
+.facebook a img, .twitter a img{
+	padding-right: 4px;
+}
+.twitter a{
+	color: #1DA1F2;
+	text-decoration: none;
+	padding: 0px 12px;
+}
+.nav{
+	padding: 26px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo h1 a{
+	display: block;
+	width: 150.06px;
+	height: 36px;
+}
+.logo h1{
+	width: 150.06px;
+	height: 36px;
+	background: url(img/hexschool-logo.png) no-repeat;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.menu ul{
+	display: flex;
+}
+.menu ul li a{
+	display: block;
+	color: #00251A;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0px 21px 22px;
+	border-bottom: 4px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #00CC99;
+}
+.banner{
+	width: 100%;
+	height: 390px;
+	background: url(img/hexschool-banner.png) no-repeat;
+	display: flex;
+ 	flex-direction: column;
+  	justify-content: center;
+}
+.catch-copy{
+	padding-left: 95px;
+	font-size: 36px;
+	color: #00251A;
+	line-height: 1.5;
+	background: #FFFFFF26;
+	padding: 27px 135px;
+}
+.content ul{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 60px;
+} 
+.content ul li{
+	width: 350px;
+	padding: 20px;
+	box-shadow: 0px 2px 4px 0px #00000029;
+	text-align: center;
+}
+.content ul li h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+  	margin-bottom: 10px;
+}
+.content ul li h4{
+	line-height: 1.5;
+	text-align: justify;
+}
+.compare h3{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 24px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.compare table{
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.compare th, .compare td{
+  text-align: left;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 100px;
+}
+.compare th{
+  font-weight: bold;
+}
+.survey{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px; 
+  background: linear-gradient(180deg, #E4FFF8 0%, #A2DDCE 100%);
+  padding: 18px;
+}
+.survey h3{
+  margin-top: 36px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #00251A;
+}
+.form-up{
+	display: flex;
+}
+.form-up label{
+	display: block;
+	margin-bottom: 8px;
+}
+.form-left input{
+	margin-bottom: 16px;
+	width: 350px;
+  	height: 38px;
+	border-radius: 3px;
+}
+.form-right{
+	margin-left: 30px;
+}
+.form-right input{
+  resize: none;
+  width: 350px;
+  height: 194px;
+  border-radius: 3px;
+}
+.form-down{
+	text-align: center;
+}
+.form-down input{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 64px;
+  padding-left: 64px;
+  background: #00251A;
+  color: white;
+  margin-top: 32px;
+  border-radius: 3px;
+}
+.form-down input:hover{
+  color:#00251A;
+  background: white;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 20px;
+}
+.contact{
+  line-height: 1.5;
+}
+.contact ul li span{
+  color: #00CC99;
 }
